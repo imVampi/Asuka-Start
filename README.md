@@ -46,4 +46,9 @@ once you do this you need to enable pywal by editing the background.js file like
 ```javascript
 let pywal = true;
 ```
-**Note: The desktop wallpaper is not taken from this, you must manually move the image to the /images folder and name it background.jpg**
+**Note: The desktop wallpaper is not taken from this, you must manually move the image to the /images folder and change the path of the background in style.css**
+```css
+  body {
+    background: url('YOURIMAGE_PATH');
+  }
+```
