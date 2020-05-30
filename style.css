@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+@import url('colors.css');
+@import "colors.css";
+
+:root {
+    --terminal-color: #1b0b0db8;
+    --terminal-bar: #A25B57;
+    --tab-1: #f1cbc0;
+    --tab-2: #F98F6E;
+    --tab-3: #8A5B67;
+    --tab-4: #D3B263;
+}
+
+* { box-sizing: border-box; margin: 0; color: white; font-family: 'Gloria Hallelujah', cursive;}
+
+body {
+    background-image: url(images/wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+ .middle-container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.terminal { background-color: var(--terminal-color); padding: 5px;}
+
+.terminal-bar { 
+    background-color: var(--terminal-bar); 
+    width: 100%; 
+    height: 35px; 
+    display: flex; 
+    justify-content: space-between;
+}
+
+.terminal-bar .tab {
+    width: 24%;
+    height: 35px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.terminal-bar .tab {
+    color: var(--terminal-color);
+}
+
+.terminal-bar .tab:nth-child(1) {
+    background: var(--tab-1);
+}
+
+.terminal-bar .tab:nth-child(2) {
+    background: var(--tab-2);
+}
+
+.terminal-bar .tab:nth-child(3) {
+    background: var(--tab-3);
+}
+
+.terminal-bar .tab:nth-child(4) {
+    background: var(--tab-4);
+}
+
+.categories {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.category a {
+    display: block;
+    text-decoration: none;
+    outline: none;
+}
+
+#category-1 a {
+    color: var(--tab-1);
+}
+
+#category-1 a:hover {
+    background: var(--tab-1);
+    color: var(--terminal-color)
+}
+
+#category-2 a {
+    color: var(--tab-2);
+}
+
+#category-2 a:hover {
+    background: var(--tab-2);
+    color: var(--terminal-color)
+}
+
+#category-3 a {
+    color: var(--tab-3);
+}
+
+#category-3 a:hover {
+    background: var(--tab-3);
+    color: var(--terminal-color)
+}
+
+#category-4 a {
+    color: var(--tab-4);
+}
+
+#category-4 a:hover {
+    background: var(--tab-4);
+    color: var(--terminal-color)
+}
+
+.middle-container .terminal#links {
+    position: relative;
+    width: 500px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}   
+
+.middle-container .terminal#links #search-bar {
+    position: absolute;
+    width: 450px;
+    height: 30px;
+    bottom: 10px;
+    color: var(--terminal-color);
+    padding-left: 5px;
+}   
+
+ .terminal#colors {
+    width: 400px;
+    height: 300px;
+}
+
+ .terminal#colors .terminal-bar.horizontal {
+    position: absolute;
+    width: 25px;
+    height: 250px;
+    background: var(--terminal-bar);
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+ .terminal#colors .terminal-bar.horizontal h3 {
+    color: var(--tab-1);    
+}
+
+ .terminal#colors .invisible {
+    position: absolute;
+    height: 250px;
+    background: green;
+    margin-top: 5px;
+    width: 100%;
+}
+
+ .terminal#colors .invisible {
+    position: absolute;
+    height: 250px;
+    background: rgba(0,0,0,0);
+    margin-top: 5px;
+    width: 365px;
+    margin-left: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+ .terminal#colors .invisible h3 {
+    margin-left: 10px;
+    width: 100%;
+    color: var(--tab-1);
+    font-size: 15px;
+}
+
+ .terminal#colors .invisible h3 #let {
+    color: var(--tab-3);
+}
+
+.terminal#colors .invisible h3 span {
+    color: var(--tab-1);
+}
+
+.right-container {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
