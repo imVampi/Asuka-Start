@@ -1,9 +1,7 @@
 # Asuka-Start (V.1)
 A minimal startpage created with Pywal in mind.
 <img src='images/thumbnail.png' width="100%" height="auto">
-###How to use:
----
-###Customization:
+Customization:
 ---
 - **Links**
 Open index.html and configure them manually 
