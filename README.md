@@ -1,6 +1,6 @@
 # Asuka-Start (V.1)
 A minimal startpage created with Pywal in mind.
-<img src='file:///home/anthony/Pictures/Screenshot%20from%202020-05-30%2001-09-14.png' width="100%" height="auto">
+<img src='images/thumbnail.png' width="100%" height="auto">
 ###How to use:
 ---
 ###Customization:
