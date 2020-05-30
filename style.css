@@ -3,18 +3,18 @@
 @import "colors.css";
 
 :root {
-    --terminal-color: #1b0b0db8;
-    --terminal-bar: #A25B57;
-    --tab-1: #f1cbc0;
-    --tab-2: #F98F6E;
-    --tab-3: #8A5B67;
-    --tab-4: #D3B263;
+    --terminal-color: #0b1018b8;
+    --terminal-bar: #647B97;
+    --tab-1: #bed1e2;
+    --tab-2: #7D9BC7;
+    --tab-3: #6C889C;
+    --tab-4: #B8C9BE;
 }
 
 * { box-sizing: border-box; margin: 0; color: white; font-family: 'Gloria Hallelujah', cursive;}
 
 body {
-    background-image: url(images/wallpaper.jpg);
+    background-image: url(images/background.gif);
     background-repeat: no-repeat;
     background-size: cover;
 }
