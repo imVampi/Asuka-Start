@@ -2,12 +2,7 @@
 A minimal startpage created with Pywal in mind.
 <br>
 <a href='https://imvampi.github.io/Asuka-Start/'>Demo.</a>
-<img src='images/thumbnail.png' width="100%" height="auto">
-<video width="320" height="240" controls>
-  <source src="movie.mp4" type="video/mp4">
-  <source src="movie.ogg" type="video/ogg">
-  Your browser does not support the video tag.
-</video>
+<a href='https://youtu.be/8UEF8zorAwI'>Video Demo</a>
 How to Use
 ---
 So depending on your browser theres only so much you can do. I recommend using ***Vivaldi*** browser with this since you can easily change the new tab and homepage in the settings menu<br><br>
