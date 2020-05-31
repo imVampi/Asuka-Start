@@ -1,6 +1,15 @@
 let pywal = false;
 
 if (pywal == true) {
+    let relative_path = "../../../../Pictures/anime/wallpaper/"; //Change to the relative path where you store your wallpapers
+    let wallpaper = getComputedStyle(document.documentElement).getPropertyValue('--wallpaper').toString(); 
+    wallpaper = wallpaper.split('url("/home/anthony/Pictures/anime/wallpaper/').pop(); //Remember to change this to what fits your path in your colors.css
+    wallpaper = wallpaper.substring(0, wallpaper.length - 2);
+    relative_path += wallpaper;
+    //Set Wallpaper
+    document.body.style.background = `url("${relative_path}")`;
+    document.body.style.backgroundSize = 'cover';
+    
     let background = getComputedStyle(document.documentElement).getPropertyValue('--background'); // #999999
     let color1 = getComputedStyle(document.documentElement).getPropertyValue('--color1'); // #999999
     let foreground = getComputedStyle(document.documentElement).getPropertyValue('--foreground'); // #999999
