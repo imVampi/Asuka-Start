@@ -37,7 +37,7 @@ If you want to edit the color scheme manually you can do so by changing these va
 ```
 
 - **Pywal customization**
-In order to use pywal with Asuka you must go to the cloned or downloaded repo and create a symlink to the ~/.config/wal/colors.css by typing this command into your terminal
+In order to use pywal with Asuka you must cd to the cloned or downloaded repo and create a symlink to the ~/.config/wal/colors.css by typing this command into your terminal
 ```bash
      ln -s /home/YOURUSERNAME/.cache/wal/colors.css colors.css
 ```    
@@ -46,9 +46,20 @@ once you do this you need to enable pywal by editing the background.js file like
 ```javascript
 let pywal = true;
 ```
-**Note: The desktop wallpaper is not taken from this, you must manually move the image to the /images folder and change the path of the background in style.css**
-```css
-  body {
-    background: url('YOURIMAGE_PATH');
-  }
+Next we will grab the relative path of the image (in this case we will use a directory) we can do this weal realpath which takes two absolute paths as arguments.
+```bash
+realpath --relative-to="$file1" "$file2"
 ```
+file1 in this case is the absolute path of the asuka directory. You can get this by typing 
+```bash
+pwd
+```
+and you can get file2's absolute path the same way. <br>
+Once you have the relative path, head over to background.js and change 2 things.
+```js
+let relative_path = "../../../../Pictures/anime/wallpaper/"
+
+wallpaper = wallpaper.split('url("/home/anthony/Pictures/anime/wallpaper/').pop(); //Remember to change this to what fits your path in your colors.css
+```
+You're done!! Now your startpage will change in realtime when you make changes to your desktop enviornment using pywal.
+
