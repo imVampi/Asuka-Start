@@ -1,5 +1,6 @@
 # Asuka-Start (V.1)
 A minimal startpage created with Pywal in mind.
+<img src='images/thumbnail.png' width="100%" height='auto'>
 <br>
 <a href='https://imvampi.github.io/Asuka-Start/'>Demo.</a>
 <a href='https://youtu.be/8UEF8zorAwI'>Video Demo</a>
