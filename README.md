@@ -3,7 +3,7 @@ A minimal startpage created with Pywal in mind.
 <br>
 <a href='https://imvampi.github.io/Asuka-Start/'>Demo.</a>
 <img src='images/thumbnail.png' width="100%" height="auto">
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/8UEF8zorAwI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 How to Use
 ---
 So depending on your browser theres only so much you can do. I recommend using ***Vivaldi*** browser with this since you can easily change the new tab and homepage in the settings menu<br><br>
